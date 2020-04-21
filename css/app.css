@@ -1,0 +1,219 @@
+.container {
+    position: relative;
+    width: 1200px;
+    height: 1024px;
+
+    background: #FFFFFF;
+}
+.application {
+    position: absolute;
+    width: 1110px;
+    height: 702px;
+    left: 45px;
+    top: 45px;
+
+    background: #C1D1D2;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.user_panel {
+    position: absolute;
+    width: 256px;
+    height: 698px;
+    left: -1px;
+    top: 0px;
+
+    background: #8D8D8D;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.message_panel {
+    position: absolute;
+    width: 812px;
+    height: 698px;
+    left: 290px;
+    top: 0px;
+
+    background: #C1D1D2;
+    border-radius: 30px;
+}
+
+.message {
+    position: relative;
+    width: 725px;
+    height: 140px;
+    left: 0px;
+    top: 38px;
+    margin-bottom: 20px;
+
+    background: #FFFFFF;
+    border-radius: 44px;
+}
+
+.message_avatar {
+    position: absolute;
+    left: 4.05%;
+    right: 91.1%;
+    top: 7.8%;
+    bottom: 56.74%;
+
+    background: #C4C4C4;
+    border: 1px solid rgba(0, 0, 0, 0.55);
+    box-sizing: border-box;
+}
+
+.message_nick {
+    position: absolute;
+    left: 13.01%;
+    right: 52.05%;
+    top: 14.89%;
+    bottom: 63.83%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.message_text {
+    position: absolute;
+    left: 13.01%;
+    right: 13.01%;
+    top: 43.26%;
+    bottom: 10.64%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.message_date {
+    position: absolute;
+    left: 70%;
+    right: -1.37%;
+    top: 77.14%;
+    bottom: 13.57%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #888383;
+}
+
+.info_user {
+
+    width: 255px;
+    height: 200px;
+
+    position: absolute;
+    left: 0px;
+    top: 38px;
+
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.info_user .avatar_user {
+    position: absolute;
+    left: 24.71%;
+    right: 24.31%;
+    top: 5%;
+    bottom: 30%;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.55);
+    box-sizing: border-box;
+}
+
+.info_user .name_user {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 73.5%;
+    bottom: 17%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* identical to box height */
+    text-align: center;
+
+    color: #000000;
+}
+
+.info_user .name_nick {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 87%;
+    bottom: 0%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.user {
+    position: relative;
+    width: 255px;
+    height: 50px;
+    left: 0px;
+    top: 260px;
+    margin-bottom: 10px;
+
+    background: #C1D1D2;
+    border: 1px solid rgba(0, 0, 0, 0.55);
+    box-sizing: border-box;
+    border-radius: 45px 0px 0px 45px;
+}
+
+.user .avatar {
+    position: absolute;
+    left: 0%;
+    right: 80.39%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #C4C4C4;
+    border: 1px solid rgba(0, 0, 0, 0.55);
+    box-sizing: border-box;
+}
+
+.user .nick {
+    position: absolute;
+    left: 22.35%;
+    right: 7.06%;
+    top: 14%;
+    bottom: 10%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 14px;
+
+    color: #000000;
+}
